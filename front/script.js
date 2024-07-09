@@ -2,8 +2,8 @@ let provider;
 let signer;
 let contract;
 
-// Replace with your contract address and ABI
-const contractAddress = '0x002124DC1e6466aF7EF9302DD1178E79b3f98280'; // Update with your actual contract address
+
+const contractAddress = '0x002124DC1e6466aF7EF9302DD1178E79b3f98280'; 
 
 const contractABI = [
 	{
