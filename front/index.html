@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager DApp</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/ethers@5.7.0/dist/ethers.umd.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Task Manager DApp</h1>
+        <button id="connectWalletButton">Connect Wallet</button>
+
+        <section class="form-section">
+            <h2>Add Task</h2>
+            <form id="taskForm">
+                <input type="text" id="taskDescription" placeholder="Task description" required />
+                <button type="submit">Add Task</button>
+            </form>
+        </section>
+
+        <ul id="taskList"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
